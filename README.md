@@ -1,4 +1,10 @@
 # SVIDIA VMS update channel
+
+### SVidia_VMS_9_0_16_214_Preview2
+*Apr 29, 2020*
+- option to send crash report to cloud
+- visual fixes and stability improvement
+
 ### SVidia_VMS_9_0_16_210_Preview2
 *Apr 14, 2020*
 - added archive preview mode (time line right click)
