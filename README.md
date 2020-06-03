@@ -1,5 +1,11 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_215_Preview2
+*Jun 03, 2020*
+- fixed keyframe playback if archive data contains a fault frame 
+- improved archive timeline scrolling behavior
+- minor visual fixes
+
 ### SVidia_VMS_9_0_16_214_Preview2
 *Apr 29, 2020*
 - option to send crash report to cloud
