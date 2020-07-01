@@ -1,5 +1,12 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_217_Preview2
+*Jul 01, 2020*
+- added ROI option for static archive pictures 
+- improved handling camera aspect ratios
+- fixed unexpected extra lines in pictures for some cameras/resolutions
+- added super fast forward playback function by using key frames (requires the latest VCore version)
+
 ### SVidia_VMS_9_0_16_215_Preview2
 *Jun 03, 2020*
 - fixed keyframe playback if archive data contains a fault frame 
