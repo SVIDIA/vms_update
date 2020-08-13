@@ -1,5 +1,12 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_218_Preview2
+*Aug 12, 2020*
+- added PTZ function for supported cameras
+- some fixes in NVR camera configuration 
+- minor fixes in playback date picker
+- minor fixes in export and playback user interface
+
 ### SVidia_VMS_9_0_16_217_Preview2
 *Jul 01, 2020*
 - added ROI option for static archive pictures 
