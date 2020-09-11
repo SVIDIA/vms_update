@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_219_Preview2
+*Sep 11, 2020*
+- fixed playback layout behavour when dealing with expoprts
+
 ### SVidia_VMS_9_0_16_218_Preview2
 *Aug 12, 2020*
 - added PTZ function for supported cameras
