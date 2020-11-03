@@ -1,9 +1,9 @@
 # SVIDIA VMS update channel
 
-### SVidia_VMS_9_0_16_220_Preview2
-*Oct 30, 2020*
-- improved robustness of application settings
-- added option to enable unconfigured or disabled cameras
+### SVidia_VMS_9_0_16_221_Preview2
+*Nov 02, 2020*
+- improved settings crash resilience 
+- added option to setup unconfigured or disabled cameras
 - improved reconnection mechanism 
 
 ### SVidia_VMS_9_0_16_219_Preview2
