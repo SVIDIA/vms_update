@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_222_Preview2
+*Jun 01, 2021*
+- minor update to support analytics enabled vcore workers
+
 ### SVidia_VMS_9_0_16_221_Preview2
 *Nov 02, 2020*
 - improved settings crash resilience 
