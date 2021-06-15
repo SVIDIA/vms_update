@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_223_Preview2
+*Jun 15, 2021*
+- fixed playback crash for some time intervals selected
+
 ### SVidia_VMS_9_0_16_222_Preview2
 *Jun 01, 2021*
 - minor update to support analytics enabled vcore workers
