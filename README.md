@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_224_Preview2
+*Jul 06, 2021*
+- improved reconnection behavior 
+
 ### SVidia_VMS_9_0_16_223_Preview2
 *Jun 15, 2021*
 - fixed playback crash for some time intervals selected
