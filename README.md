@@ -1,11 +1,12 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_225_Preview2
+*Jul 09, 2021*
+- added fine tuning for VCore analytics enabled workers
+
 ### SVidia_VMS_9_0_16_224_Preview2
 *Jul 06, 2021*
-- improved reconnection behavior 
-
-### SVidia_VMS_9_0_16_223_Preview2
-*Jun 15, 2021*
+- improved reconnection behavior
 - fixed playback crash for some time intervals selected
 
 ### SVidia_VMS_9_0_16_222_Preview2
