@@ -1,8 +1,13 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_226_Preview2
+*Jul 16, 2021*
+- fixed export function for legacy VServers
+- improved open function (using the default OS app) for exported videos
+
 ### SVidia_VMS_9_0_16_225_Preview2
 *Jul 09, 2021*
-- added fine tuning for VCore analytics enabled workers
+- added fine tuning settings for VCore analytics enabled workers
 
 ### SVidia_VMS_9_0_16_224_Preview2
 *Jul 06, 2021*
