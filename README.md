@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_227_Preview2
+*Jul 23, 2021*
+- corrected error message when antivirus software denies access to user's folder 
+
 ### SVidia_VMS_9_0_16_226_Preview2
 *Jul 16, 2021*
 - fixed export function for legacy VServers
