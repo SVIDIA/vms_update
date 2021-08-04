@@ -1,7 +1,7 @@
 # SVIDIA VMS update channel
 
-### SVidia_VMS_9_0_16_228_Preview2
-*Jul 30, 2021*
+### SVidia_VMS_9_0_16_229_Preview2
+*Aug 03, 2021*
 - fixed nvr/cameras reconnection issues 
 
 ### SVidia_VMS_9_0_16_227_Preview2
