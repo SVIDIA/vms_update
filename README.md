@@ -1,8 +1,11 @@
 # SVIDIA VMS update channel
 
-### SVidia_VMS_9_0_16_229_Preview2
+### SVidia_VMS_9_0_16_230_Preview2
 *Aug 03, 2021*
-- fixed nvr/cameras reconnection issues 
+- added receiveing panel auto opening on search function
+- minor UI changes
+- fixed nvr/cameras reconnection issues
+- bugs fixes and performance improvements
 
 ### SVidia_VMS_9_0_16_227_Preview2
 *Jul 23, 2021*
