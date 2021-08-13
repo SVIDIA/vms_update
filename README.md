@@ -2,7 +2,7 @@
 
 ### SVidia_VMS_9_0_16_230_Preview2
 *Aug 14, 2021*
-- added receiveing panel auto opening on search function
+- added search panel auto opening on search function
 - minor UI changes
 - fixed nvr/cameras reconnection issues
 - bugs fixes and performance improvements
