@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_232_Preview2
+*Oct 15, 2021*
+- expanded camera view window
+
 ### SVidia_VMS_9_0_16_231_Preview2
 *Sep 21, 2021*
 - fixed crash while editing some camera settings
