@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_233_Preview2
+*Dec 09, 2021*
+- fixed saving pictures from strories
+
 ### SVidia_VMS_9_0_16_232_Preview2
 *Oct 15, 2021*
 - expanded camera view window
