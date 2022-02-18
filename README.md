@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_234_Preview2
+*Feb 18, 2022*
+- fixed date stamp for saved videos
+
 ### SVidia_VMS_9_0_16_233_Preview2
 *Dec 09, 2021*
 - fixed saving pictures from stories
