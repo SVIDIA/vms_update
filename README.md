@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_235_Preview2
+*Apr 1, 2022*
+- added ptz wiper function
+
 ### SVidia_VMS_9_0_16_234_Preview2
 *Feb 18, 2022*
 - fixed date stamp for saved videos
