@@ -3,7 +3,7 @@
 ### SVidia_VMS_9_0_16_237_Preview2
 *Apr 12, 2022*
 - added a function to select cameras into a new Camera View
-- added an menu item allowing to remove expired/outdated Export items
+- added a menu option allowing to remove expired/outdated Export items
  
 ### SVidia_VMS_9_0_16_235_Preview2
 *Apr 1, 2022*
