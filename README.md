@@ -2,7 +2,7 @@
 
 ### SVidia_VMS_9_0_16_238_Preview2
 *Jun 01, 2022*
-- added archive date available to NVR information
+- added archive dates available to NVR information
 
 ### SVidia_VMS_9_0_16_237_Preview2
 *Apr 12, 2022*
