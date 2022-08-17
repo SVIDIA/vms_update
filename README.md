@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_239_Preview2
+*Aug 17, 2022*
+- improved camera resolution/quality when Screen Scaling is in use
+
 ### SVidia_VMS_9_0_16_238_Preview2
 *Jun 01, 2022*
 - added archive dates available to NVR information
