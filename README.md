@@ -1,5 +1,11 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_240_Preview2
+*Aug 31, 2022*
+- fixed playback continuation to the next day
+- ROI option could be turned off using icon on camera view
+- performance improvement
+
 ### SVidia_VMS_9_0_16_239_Preview2
 *Aug 17, 2022*
 - improved camera resolution/quality when Screen Scaling is in use
