@@ -1,5 +1,10 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_241_Preview2
+*Oct 06, 2022*
+- added feature to hide camera timestamps in live views
+- displaying performance improvement
+
 ### SVidia_VMS_9_0_16_240_Preview2
 *Aug 31, 2022*
 - fixed playback continuation to the next day
