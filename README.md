@@ -1,7 +1,8 @@
 # SVIDIA VMS update channel
 
-### SVidia_VMS_9_0_16_241_Preview2
-*Oct 06, 2022*
+### SVidia_VMS_9_0_16_242_Preview2
+*Oct 07, 2022*
+- added option to duplicate camera view
 - added feature to hide camera timestamps in live views
 - displaying performance improvement
 
