@@ -1,5 +1,12 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_245_Preview2
+*Dec 09, 2022*
+- added intro to the begging of exported videos
+- fixed minor issues while playing back archive events
+- minor fixes for 32:9 ratio cameras 
+- export performance improvement
+
 ### SVidia_VMS_9_0_16_244_Preview2
 *Oct 11, 2022*
 - added option to duplicate camera view
