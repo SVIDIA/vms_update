@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_247_Preview2
+*May 22, 2022*
+- added option to connect to nvr via cloud (subscription required)
+
 ### SVidia_VMS_9_0_16_246_Preview2
 *Dec 09, 2022*
 - added intro to the begging of exported videos
