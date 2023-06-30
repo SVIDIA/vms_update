@@ -1,6 +1,10 @@
 # SVIDIA VMS update channel
 
 ### SVidia_VMS_9_0_16_248_Preview2
+*Jun 30, 2022*
+- added option to show UI dialogs on the left screen when using dual displays extended mode
+
+### SVidia_VMS_9_0_16_248_Preview2
 *May 24, 2022*
 - added option to connect to nvr via cloud (subscription required)
 
