@@ -1,6 +1,10 @@
 # SVIDIA VMS update channel
 
-### SVidia_VMS_9_0_16_248_Preview2
+### SVidia_VMS_9_0_16_250
+*Jul 28, 2022*
+- added app launch check for some required components and libraries
+
+### SVidia_VMS_9_0_16_249_Preview2
 *Jun 30, 2022*
 - added option to show UI dialogs on the left screen when using dual displays extended mode
 
