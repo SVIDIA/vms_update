@@ -1,15 +1,19 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_251
+*Sep 05, 2023*
+- fixed wrong export layout if layout was duplicated or created from selected cameras 
+
 ### SVidia_VMS_9_0_16_250
-*Jul 28, 2022*
+*Jul 28, 2023*
 - added app launch check for some required components and libraries
 
 ### SVidia_VMS_9_0_16_249_Preview2
-*Jun 30, 2022*
+*Jun 30, 2023*
 - added option to show UI dialogs on the left screen when using dual displays extended mode
 
 ### SVidia_VMS_9_0_16_248_Preview2
-*May 24, 2022*
+*May 24, 2023*
 - added option to connect to nvr via cloud (subscription required)
 
 ### SVidia_VMS_9_0_16_246_Preview2
