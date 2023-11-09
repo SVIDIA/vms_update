@@ -1,5 +1,9 @@
 # SVIDIA VMS update channel
 
+### SVidia_VMS_9_0_16_252
+*Nov 09, 2023*
+- fixed: export list item has not been updated after editing
+
 ### SVidia_VMS_9_0_16_251
 *Sep 05, 2023*
 - fixed wrong export layout if layout was duplicated or created from selected cameras 
