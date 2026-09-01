@@ -1,8 +1,8 @@
 {
   "Name": "VMS",
-  "Version": "9.1.26.322",
-  "URL": "https://github.com/SVIDIA/vms_update/releases/download/v9.1.26.322/vms-setup-9.1.26.322.msi",
+  "Version": "9.1.26.323",
+  "URL": "https://github.com/SVIDIA/vms_update/releases/download/v9.1.26.323/vms-setup-9.1.26.323.msi",
   "INFO_URL": "https://github.com/SVIDIA/vms_update#readme",
-  "SHA256": "a7b5ca828617e625b7bba5fff069889379944bfe7198a1925db2981e9a08a03c",
+  "SHA256": "6d0908477fdbea4eedfebd9d35725277b614850bbed454b9b57418f51003d6e9",
   "Size": 296775680
 }
