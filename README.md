@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.325** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.326** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,17 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.326 — 7 September 2026
+
+**Fixed:** on the first run after upgrading, VMS could carry over a *mixture* of settings from two
+older generations — some of your camera list, layouts and preferences from VMS2020, the rest from a
+9.1.26.316-era build — because the two store their settings under the same file names. Only
+VMS2020's settings are carried over now, so what you get is one coherent set rather than a blend.
+
+This applies to machines that have not yet run VMS 2026 for the first time. Where the settings were
+already carried over, nothing changes and nothing is re-copied; the older folders are left on disk
+either way.
 
 ### 9.1.26.325 — 7 September 2026
 
