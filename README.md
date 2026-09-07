@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.324** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.325** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,18 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.325 — 7 September 2026
+
+**A refused connection now says why.** When an NVR turns a connection away, VMS asks the NVR about
+its licence and reports what the NVR itself says — for example **License expired 2026-09-03** — in
+place of the flat "VClient not licensed" it showed for every refusal. The reason appears wherever
+the NVR's error already did: the hover panel in the NVR tree, the NVR Information dialog, and the
+message that appears when the connection fails.
+
+If the licence turns out to be fine, it says so instead, so a refusal caused by something else no
+longer sends you to check a licence that was never the problem. The licence itself is only readable
+by an administrator on a current NVR; anywhere else the previous wording is unchanged.
 
 ### 9.1.26.324 — 7 September 2026
 
