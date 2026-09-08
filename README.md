@@ -2,12 +2,12 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.326** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.327** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
 install, or for putting VMS on a machine that has no internet access. You can also check on demand
-with the update button in the VMS toolbar, which appears when an update is waiting.
+with the update button in the VMS toolbar, which reports the current update status.
 
 One installer, `vms-setup.msi`, covers both ways of installing: **for everyone on this computer**
 (needs administrator rights) or **just for me** (no admin rights needed). The installer asks which
@@ -16,6 +16,26 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.327 — 8 September 2026
+
+**The update button stays put.** On some installations the update icon in the top bar appeared for a
+moment as VMS started and then disappeared again. It is now shown once, when there is something to
+report, and stays.
+
+**Update status is always within reach.** Clicking the icon reports the installed version, when
+updates are installed, and when the next check is due — on any installed copy, including one that has
+not yet had its first overnight check. Until now the icon, and with it the status, only appeared once
+a check had recorded a result, so a freshly installed machine had no way to see any of it.
+
+If a scheduled check has been missed — a computer switched off overnight, say — the status now says so
+instead of naming a check date that has already gone by.
+
+**Fixed:** while an update was waiting to install, the notification *The new version is available*
+reappeared every minute for as long as VMS stayed open. It now appears once.
+
+**Fixed:** longer messages in dialogs were squeezed into a fixed-height window, overlapping the title
+bar above and the buttons below. Dialogs now grow to fit what they have to say.
 
 ### 9.1.26.326 — 7 September 2026
 
