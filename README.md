@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.327** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.328** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,26 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.328 — 17 September 2026
+
+**Keep cameras in view while you work in other programs.** A new *on-top monitor* puts a small live
+window above everything else on screen, so a handful of cameras stays visible while you work in
+email, a report or any other application — including while VMS itself is minimised. Open it from the
+new button next to the SVIDIA logo in the top bar, which also closes the window or resets it to its
+default corner.
+
+Fill it by dragging a view from the camera list onto it, or right-click the view and choose *Show in
+on-top monitor*. The view inside VMS is left exactly as it was, so the small window can show a
+smaller grid than the one you work with. It behaves like any other view: drag the picture to move
+the window, pull an edge or a corner to resize it, double-click a camera for full size and back, and
+right-click to change the layout or remove cameras. *Show in main view* brings VMS back to the front
+on the same view. Its position, size and cameras are remembered, and it reopens with VMS if you left
+it open.
+
+**Fixed:** VMS windows showed a generic Windows icon instead of the SVIDIA one when switching
+between open windows. The on-top monitor carries its own version of the icon, so the two windows are
+easy to tell apart.
 
 ### 9.1.26.327 — 8 September 2026
 
