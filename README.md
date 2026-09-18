@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.328** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.329** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,41 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.329 — 18 September 2026
+
+**UniFi and analog sensors in R-CAD.** On a VCore8 NVR, the R-CAD editor now works with the new
+*UniFi Sensor* and *Analog Sensor* devices, listed under *System Devices*. The UniFi console's API key
+is hidden as you type it, with a *Show* button beside it so you can check what you pasted, and the
+sensor's status information is shown read-only.
+
+**See data travel along the wiring.** When a device sends out a reading, such as a UniFi temperature or
+a new ADATA record, the pin it leaves from now flashes briefly, so you can tell which wires are
+carrying data. Until now those pins looked idle even while readings were flowing through them.
+
+**Archive jumps land on the right moment across a clock change.** Events from a VCore8 NVR now carry
+an exact time, and jumping from an event into the archive uses the NVR's time zone as it was on the
+day of that event. An event recorded on the other side of a summer/winter time change used to open
+the recording an hour away from the moment it happened.
+
+**Fixed:** a wire drawn while a device's properties were being edited could be lost when the change
+was saved. The wire stayed on screen but no data flowed along it. Wiring is now kept, and property
+changes take effect on their own a moment after you stop editing, without pressing *Apply*. A device
+that had been moved no longer jumps back to its old position when its changes are saved.
+
+**Fixed:** adding inputs to an Alarm Panel gave each new input a copy of the last input's settings,
+including which users are allowed to operate it. New inputs, and new pins on other devices, now start
+with default settings.
+
+**Fixed:** new user pins on an FCM push-notification device did not appear, so no user could be
+assigned to them. They now show as an empty row you can select.
+
+**Fixed:** lowering a device's pin count could leave a wire hanging on screen from a pin that no
+longer exists.
+
+**Fixed:** *Set output* on an alarm-panel output always opened with the switch off, whatever the
+output was actually doing. It now opens showing the output's current state; for a group, the switch
+shows on only when every output in it is on.
 
 ### 9.1.26.328 — 17 September 2026
 
