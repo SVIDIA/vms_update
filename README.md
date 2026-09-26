@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.329** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.331** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,31 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.331 — 27 September 2026
+
+**See where the motion is on the playback timeline.** On a VCore8 NVR, each camera's recorded stretch
+on the timeline now shows how much was moving: the green gets brighter where there was more motion,
+so busy moments stand out at a glance. The same shade means the same amount of motion on every camera
+and at every zoom. Recordings made before the NVR was upgraded carry no motion information and are
+shown hatched. The *Motion Heatmap* is on by default; right-click the timeline to switch it off or on,
+and the choice is remembered for each playback view. It loads quickly even for many cameras, because
+all cameras are asked at once instead of one after another.
+
+**Quiet keyframes are dimmed in frame view.** When the timeline is zoomed in far enough to show single
+frames, the keyframes a VCore8 NVR records at regular intervals while nothing is moving are shown dimmer,
+so the frames with real activity are easier to find.
+
+**Right-click on the timeline opens its menu.** A right-click on the camera lanes now opens the
+timeline menu. To preview a frame, hold the right button and drag; a right-click that does not move
+no longer starts a preview.
+
+**Fixed:** *Show in main view* on the on-top monitor could open a view that had nothing to do with the
+cameras in the window. It returned to the view the window was first filled from, even after cameras
+had been added or removed since. It now opens the view with the same cameras as the window. If there
+is no such view, it opens the one that shows the most of them, with a message saying how many of the
+window's cameras are in it. If no view has any of them, VMS comes to the front with a message and the
+main view is left as it was.
 
 ### 9.1.26.329 — 18 September 2026
 
