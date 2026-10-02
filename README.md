@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.331** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.332** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,36 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.332 — 2 October 2026
+
+**Cameras show their real state as soon as VMS connects.** The NVR tree now colours each camera from
+what the NVR itself reports, checked every few seconds, instead of waiting for someone to look at the
+camera. **Fixed:** on a VCore8 NVR every working camera could show red after VMS started and turn green
+only once you hovered over it or opened it; on older NVRs, cameras that were recording could show red
+the same way.
+
+**See why a camera is not working.** With a VCore8 NVR of version 8.0.1521 or later, the tree tells
+three cases apart: *connecting* (blue) for a camera that has just started or is reconnecting, *no video
+source configured* (a red camera with a small yellow gear) for a camera that is switched on but has no
+address yet, as on a fresh install, and *failed* (the crossed-out red camera) for a camera that has an
+address but sends no video. Hover over a camera to see why it failed (for example "camera unreachable",
+"wrong camera user name or password" or "video stopped"), since when, and how many times the NVR has
+tried to reconnect it; administrators also see the NVR's own explanation. The same details are in the
+camera's *Info* window (right-click the camera, then *Info*).
+
+**The tree keeps up with changes.** On a VCore8 NVR, a camera that is switched on, switched off or
+renamed, from this computer or any other, now appears, disappears or is renamed in the tree within about
+a second, without reconnecting. A camera that is switched on but beyond the number of cameras the NVR is
+licensed for is not shown, and VMS says so in *Messages*.
+
+**Video tiles say why they are empty.** A tile whose camera sends no picture now shows *CONNECTING*,
+*NO SOURCE* or *NO VIDEO*, instead of staying black.
+
+**Fixed:** removing a camera from the NVR tree did not save the change on the NVR, so the camera came
+back after the NVR restarted. It now stays removed until you add it again with *Add Cameras*.
+
+**Fixed:** answering *No* when asked whether to remove a camera showed an "NVR disconnected" error.
 
 ### 9.1.26.331 — 27 September 2026
 
