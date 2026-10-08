@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.332** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.333** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,27 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.333 — 9 October 2026
+
+**Add the Alarm Panel back in R-CAD.** *Add New Device* now lists the *Alarm Panel* under *System
+Devices* whenever the NVR has none, for example after it was deleted, or on a new VCore8 install, which
+starts without one. An NVR can have only one Alarm Panel, so the entry is hidden while one exists. A
+VCore8 NVR needs an update that adds Alarm Panel support; until it has it, VMS tells you the NVR could
+not create the Alarm Panel instead of adding an empty block.
+
+**VMS tells you when the NVR refuses a new device.** If the NVR will not add a device, for example
+because another operator has just added an Alarm Panel, VMS now says so and reloads the R-CAD scheme,
+instead of doing nothing.
+
+**Fixed:** after the Alarm Panel was deleted, its inputs and outputs stayed listed in the *I/O* tab. The
+*I/O* tab now follows the Alarm Panel being added or deleted straight away, without reconnecting.
+
+**Fixed:** inputs added to an Alarm Panel by raising *Inputs Count* had an extra *PopUp* switch that did
+nothing.
+
+*Graphics Program* is no longer offered in *Add New Device*, as it is not used. Existing ones keep
+working.
 
 ### 9.1.26.332 — 2 October 2026
 
