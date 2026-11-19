@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.333** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.335** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,18 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.335 — 19 November 2026
+
+**See who is connected to an NVR.** When you are logged on to an NVR as an administrator, hover over
+the NVR in the tree to see how many users are connected to it and their user names. The NVR's *Info*
+window (right-click the NVR, then *Info*) shows the same list and keeps it up to date while it is open.
+This works with VCore8 NVRs and with older NVRs. On a VCore8 NVR, a user name that is logged on from
+several computers at the same time is counted once.
+
+**Security update:** a third-party library that VMS uses internally (MessagePack) has been updated to a
+version without a known vulnerability. VMS did not use the affected part of it, so there is nothing you
+need to do.
 
 ### 9.1.26.333 — 9 October 2026
 
