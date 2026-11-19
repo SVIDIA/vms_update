@@ -2,7 +2,7 @@
 
 The auto-update feed and installer downloads for **SVIDIA VMS**.
 
-**Current version: 9.1.26.335** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
+**Current version: 9.1.26.336** — [download the installer](https://github.com/SVIDIA/vms_update/releases/latest)
 
 An installed copy checks this channel by itself and applies an update overnight (between 01:00 and
 05:00 local time), so there is normally nothing to do here. The download above is for a first
@@ -16,6 +16,16 @@ you want; updates then follow whichever you chose.
 ---
 
 ## What's new
+
+### 9.1.26.336 — 19 November 2026
+
+**Fixed:** on computers where VMS is installed *just for me*, a black command window appeared on the
+screen for a moment every 15 minutes. It was the VMS updater checking whether it was time to look for
+an update. The updater now works without showing any window. You may see the window one last time
+while this update installs.
+
+Updates still arrive as before: overnight, or soon after you switch the computer on if it was off
+overnight.
 
 ### 9.1.26.335 — 19 November 2026
 
