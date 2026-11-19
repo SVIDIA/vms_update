@@ -29,6 +29,13 @@ several computers at the same time is counted once.
 version without a known vulnerability. VMS did not use the affected part of it, so there is nothing you
 need to do.
 
+### 9.1.26.334 — 13 November 2026
+
+**Fixed:** the arrows for moving a camera's ROI (the area chosen with *Set ROI*) moved it too far: one
+click could shift a tall or wide ROI by up to a quarter of the whole picture. Each click now moves the
+ROI by a quarter of its own width or height, and stops at the edge of the picture. This applies in both
+live view and playback.
+
 ### 9.1.26.333 — 9 October 2026
 
 **Add the Alarm Panel back in R-CAD.** *Add New Device* now lists the *Alarm Panel* under *System
